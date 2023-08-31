@@ -1,0 +1,8 @@
+.birder {
+    border-width: 0.5px;
+    border-style: groove;
+    width: 220px;
+    text-align: center;
+    padding: 10px 2px 5px 2px
+}
+

@@ -1,0 +1,140 @@
+#quoteb  {
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    background-color:orangered;
+    border: 0px;
+    padding: 9px 14px;
+}
+
+#shopnowbt  {
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    background-color:orangered;
+    border: 0px;
+    padding: 9px 14px;
+}
+
+#contactusbt  {
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    background-color:black;
+    border: 0px;
+    padding: 9px 14px;
+    margin-left: 10px;
+}
+
+.myDiv {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    border: 0px;
+    background-color: rgb(243, 233, 233);
+    text-align: center;
+    padding-left: 20px;
+}
+
+.mainimage {
+    padding: 0% 10%
+}
+
+#main_div {
+    height: 300px;
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    height: 300px;
+    width: 350px;
+    border: 1px solid grey;
+}
+
+.items2 {
+    height: 300px;
+    width: 350px;
+}
+
+#childiv {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#childiv2 {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#maindiv2{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#ctrparent {
+    height: 605px;
+    width: 100%;
+}
+
+#ctrchild1 {
+    width: 69%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+#ctrchild11 {
+    width: 30%;
+    height: 200px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#ctrchild2 {
+    width: 69%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+#ctrchild22 {
+    width: 30%;
+    height: 200px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#ctrchild3 {
+    width: 69%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+#ctrchild33 {
+    width: 30%;
+    height: 200px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#inputbox {
+    font-size: 18px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}

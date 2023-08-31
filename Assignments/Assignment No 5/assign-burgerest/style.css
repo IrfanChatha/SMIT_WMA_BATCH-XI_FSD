@@ -1,0 +1,178 @@
+#grad1 {
+    background-image: linear-gradient(black, black, black, black, transparent);
+    opacity: 0.95;
+  }
+
+
+#navcolor{
+  color: white !important;
+  font-weight: bold;
+  font-size: larger;
+  padding-right: 3rem;
+}
+
+
+#ordernowbtn{
+  font-size: large;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 10px 50px 10px 50px;
+  background-color: orangered !important;
+}
+
+
+#sec3btn{
+  margin-top: 50px;
+  font-size: large;
+  font-weight: bold;
+  color: orangered;
+  border-radius: 40px;
+  padding: 10px 50px 10px 50px;
+  background-color: white;
+}
+
+
+
+.clstemp{
+  text-align: center;
+  padding-top: 60px;
+  color: orangered;
+}
+
+.smpic{
+  width:200px;
+  height:180px;
+  border-radius: 800px;
+  background-color: rgb(198, 226, 243);
+}
+
+  .smallimages1 {
+    background-image: 
+      url(assets/sec2img1.png),
+      url(assets/sec2img2.png),
+      url(assets/sec2img3.png), 
+      url(assets/sec2img4.png),
+      url(assets/sec2img5.png),
+      url(assets/sec2img6.png);
+    
+    background-position: 
+      170px 50px,
+      970px 50px,
+      1px 200px,
+      1020px 420px,
+      270px 430px,
+      670px 430px;
+
+    background-repeat: no-repeat;
+  }
+
+
+
+  .smallimages2 {
+    background-image: 
+      url(assets/sec2img1.png),
+      url(assets/sec2img2.png),
+      url(assets/sec2img3.png), 
+      url(assets/sec2img4.png),
+      url(assets/sec2img5.png),
+      url(assets/sec2img6.png);
+    
+    background-position: 
+      170px 10px,
+      970px 20px,
+      1px 250px,
+      1020px 200px,
+      270px 380px,
+      600px 360px;
+
+    background-repeat: no-repeat;
+  }
+
+
+  .smallimages3 {
+    background-image: 
+      url(assets/sec2img1.png),
+      url(assets/sec2img2.png),
+      url(assets/sec2img3.png), 
+      url(assets/sec2img4.png),
+      url(assets/sec2img5.png),
+      url(assets/sec2img6.png);
+    
+    background-position: 
+      170px 10px,
+      970px 70px,
+      1px 250px,
+      1020px 400px,
+      270px 510px,
+      660px 510px;
+
+    background-repeat: no-repeat;
+  }
+
+
+#cirle{
+width:220px;
+height:220px;
+border-style: solid;
+border-color: white;
+border-width: 4px;
+border-radius: 120px;
+padding-top: 30px;
+}
+
+
+#pcard{
+  width:250px;
+  height:300px;
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+  padding-top: 30px;
+  background-color: white;
+  color: orangered;
+  }
+
+
+
+  .bkpic{
+    background-image: url(assets/sec6imgbk.png);
+    background-size: cover;
+    height:600px;
+    width:1250px;
+  }
+
+  .bkcol2{
+    background-color: orangered; 
+    opacity: 50%; 
+    height:600px;
+    width:1140px;
+  }
+
+  #bkcol{
+    font-size:50px !Important;
+    font-weight: bolder;
+    color: white;
+  }
+
+
+  #bkcol5{
+    background-color: rgba(17, 16, 16, 0.795); 
+    
+  
+  }
+
+
+  #main_div {
+    height: 300px;
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#childiv2 {
+  padding-top: 30px;
+  font-size: 18px;
+  text-align: left;
+}
