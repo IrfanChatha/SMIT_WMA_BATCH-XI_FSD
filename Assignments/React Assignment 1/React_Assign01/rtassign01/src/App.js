@@ -1,12 +1,11 @@
-//import logo from './logo.svg';
 import './App.css';
+import LandingPage from './pages/landingPage/LandingPage';
 
 function App() {
   return (
-    <div className="App">
-        <p>
-          <h1>Hello!</h1>  <br></br>My First React App. !!!
-        </p>
+    <div>
+        <LandingPage/>
+
     </div>
   );
 }
