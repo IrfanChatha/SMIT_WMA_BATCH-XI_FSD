@@ -3,7 +3,7 @@
 <br>
 <h2>About the Course</h2>
 
-<p>This course was offered by Saylani Mass IT Training Batch Year 2022-23. The course focuses on the MERN stack, which is a popular web development technology stack that includes MongoDB, Express, React, and Node.js.</p>
+<p>This course offered by Saylani Mass IT Training Batch Year 2022-23. The course focuses on the MERN stack, which is a popular web development technology stack that includes MongoDB, Express, React, and Node.js.</p>
 
 <p>The course was designed to provide participants with hands-on experience building full-stack web applications using the MERN stack. The course covers the basics of each technology in the stack, as well as best practices for developing robust and scalable web applications.</p>
 
@@ -29,4 +29,4 @@
 
 <p>Each module includes a set of lectures, practical exercises, and assignments to help participants solidify their understanding of the topics covered.</p>
 
-<p>All assignments completed in due time and uploaded in respective folders..</p>
+<p>All assignments completed in due time and uploaded in respective folders...</p>
