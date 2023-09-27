@@ -5,6 +5,7 @@ import burger2 from '../../../assets/images/burger2.jpg'
 import pizza from '../../../assets/images/pizza.jpg'
 import pizaa1 from '../../../assets/images/pizaa1.jpg'
 import pizza2 from '../../../assets/images/pizza2.jpg'
+
 const MenuPage = () => {
   return (
 
