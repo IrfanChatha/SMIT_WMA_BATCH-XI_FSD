@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Heading from '../assets/images/Heading.png'
 const Header = () => {
   return (
     <div style={{textAlign: 'center'}}>
 
 <img
-    src={require('../assets/images/Heading.png')}
+    src={Heading}
     alt="Sir Umair Azmat"
     style={{
       width: '300px',
