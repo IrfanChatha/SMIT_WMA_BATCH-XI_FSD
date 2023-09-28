@@ -5,8 +5,9 @@ import AboutPage from './aboutPage/AboutPage'
 import MenuPage from './menuPage/MenuPage'
 import TimingPage from './timingPage/TimingPage'
 import Header from '../Header.jsx'
-import Footer from '../Footer.jsx';
+import Footer from '../Footer.jsx'
 import ContactusPage from './contactusPage/ContactusPage'
+
 export default function Index () {
   return (
     
@@ -18,7 +19,7 @@ export default function Index () {
           <Route path="MenuPage" element={<MenuPage />} />
           <Route path="TimingPage" element={<TimingPage />} />
           <Route path="ContactUsPage" element={<ContactusPage />} />
-
+          <Route path="*" element={<h2>Sorry! Page Not Found!!</h2>} />
 </Routes>
 <Footer />
 </BrowserRouter>
