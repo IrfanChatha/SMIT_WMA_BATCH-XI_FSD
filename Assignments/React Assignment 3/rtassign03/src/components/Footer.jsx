@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     
-    <div id="main_div">
+    {/* <div id="main_div">
     <div class="items2" id="childiv2">
     <h3 style="font-family:Arial; font-weight:bolder">Fruits</h3>
     <p style="font-family:Arial; text-align: left">randomised</br> words which</br> don't look even</br> slightly</br> believable. If you</br> are going to use</br> a passage of </br>Lorem Ipsum.</p>
@@ -30,7 +30,7 @@ const Footer = () => {
      <input type="text" size="20"><br><br>
     <a href="menu.html"><button id = shopnowbt>Subscribe</button></a> <br>
     </div> 
-    
+     */}
     
        
     

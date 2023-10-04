@@ -1,10 +1,49 @@
 import React from 'react';
 import logo from './assets/images/logo.png';
-import search_icon from './assets/images/search_icon.png'
+import search_icon from './assets/images/search_icon.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-<div style={{
+
+<>
+
+<nav className="navbar bg-primary navbar-expand-lg bg-body-tertiary" style={{backgroundColor: 'rgb(243, 233, 233)'}}>
+  <div className="container-fluid">
+  <Link class="navbar-brand" path="#">
+      <img src={logo} alt="Bootstrap" width="60" height="54"/> <b>TROPIKO</b>
+    </Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+    </button>
+
+    <div className="collapse navbar-collapse justify-content-end fs-5 text" id="navbarTogglerDemo02">
+      <ul className="navbar-nav mb-lg-0 mx-5">
+        <li className="nav-item me-2 px-3">
+          <Link className="nav-link active" aria-current="page" path="#"><b>Home</b></Link>
+        </li>
+        <li className="nav-item me-2 px-3">
+          <Link className="nav-link active" aria-current="page" path="#"><b>Fruits</b></Link>
+        </li>
+        <li className="nav-item me-2 px-3">
+          <Link className="nav-link active" aria-current="page" path="#"><b>Services</b></Link>
+        </li>
+        <li className="nav-item me-2 px-3">
+          <Link className="nav-link active" aria-current="page" path="#"><b>Contact Us</b></Link>
+        </li>
+      </ul>
+      <form className="d-flex " role="search">
+      <img src={search_icon} alt='Search'/>
+        <button className="ms-5 btn text-nowrap" style={{backgroundColor: 'orangered', color:'white'}} type="button">Get a Quote</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+{/* <div style={{
         fontFamily: 'Verdana',
         fontSize: '20px',
         border: '0px',
@@ -34,7 +73,9 @@ function Header() {
                 </tr>
             </table>
     </nav>
-    </div>
+    </div> */}
+
+</>
   )
 }
 
