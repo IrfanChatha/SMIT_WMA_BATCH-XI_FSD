@@ -1,35 +1,32 @@
 import React from 'react';
 import logo from './assets/images/logo.png';
 import search_icon from './assets/images/search_icon.png';
-import { Link } from 'react-router-dom';
+// import { a } from 'react-router-dom'
 
 function Header() {
   return (
 
 <>
 
-<nav className="navbar bg-primary navbar-expand-lg bg-body-tertiary" style={{backgroundColor: 'rgb(243, 233, 233)'}}>
+<nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-  <Link class="navbar-brand" path="#">
-      <img src={logo} alt="Bootstrap" width="60" height="54"/> <b>TROPIKO</b>
-    </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-
-    <div className="collapse navbar-collapse justify-content-end fs-5 text" id="navbarTogglerDemo02">
+    <img src={logo} alt='Search'/><h3>TROPICO</h3>
+    <div className="collapse navbar-collapse justify-content-end fs-5 text" id="navbarSupportedContent">
       <ul className="navbar-nav mb-lg-0 mx-5">
         <li className="nav-item me-2 px-3">
-          <Link className="nav-link active" aria-current="page" path="#"><b>Home</b></Link>
+          <a className="nav-a active" aria-current="page" path="#"><b>Home</b></a>
         </li>
         <li className="nav-item me-2 px-3">
-          <Link className="nav-link active" aria-current="page" path="#"><b>Fruits</b></Link>
+          <a className="nav-a active" aria-current="page" path="#"><b>Fruits</b></a>
         </li>
         <li className="nav-item me-2 px-3">
-          <Link className="nav-link active" aria-current="page" path="#"><b>Services</b></Link>
+          <a className="nav-a active" aria-current="page" path="#"><b>Services</b></a>
         </li>
         <li className="nav-item me-2 px-3">
-          <Link className="nav-link active" aria-current="page" path="#"><b>Contact Us</b></Link>
+          <a className="nav-a active" aria-current="page" path="#"><b>Contact Us</b></a>
         </li>
       </ul>
       <form className="d-flex " role="search">
