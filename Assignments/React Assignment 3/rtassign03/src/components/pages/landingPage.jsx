@@ -8,7 +8,7 @@ const LandingPage = () => {
 <div className="container-fluid">
    <div className="row">
     <div className="col-8 bg-body-tertiary" style={{width:'50%', backgroundColor: 'rgb(243, 233, 233)', paddingLeft:'20px'}}>
-    <h1 className="mt-6" style={{paddingTop:'10%', fontFamily:'Arial', fontWeight:'bold', fontSize:'5vh'}}>Welcome to <br/> Our Fruits Shop</h1>
+    <h1 style={{paddingTop:'10%', fontFamily:'Arial', fontWeight:'bold', fontSize:'5vh'}}>Welcome to <br/> Our Fruits Shop</h1>
     <p style={{fontFamily:'Arial', fontSize:'20px'}}>There are many variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
     <button style={{fontSize:'18px',
     fontWeight: 'bold',
@@ -27,7 +27,7 @@ const LandingPage = () => {
         </div>
     
     <div className="col-6 bg-body-tertiary" style={{width:'50%', backgroundColor: 'rgb(243, 233, 233)', paddingLeft:'20px'}}>
-    <img src={slideimage} alt='SlideImage' className="img-fluid"/>
+    <img src={slideimage} alt='SlideImage' className="img-fluid rounded float-end mt-5" style={{width:'80%', height:'70%'}}/>
     </div>
   </div>
 </div>
