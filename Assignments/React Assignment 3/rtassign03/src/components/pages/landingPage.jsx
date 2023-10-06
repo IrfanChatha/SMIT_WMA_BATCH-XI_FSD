@@ -23,22 +23,13 @@ const LandingPage = () => {
       border:'0px',
       padding:'9px 14px',
       marginLeft:'10px'}}>CONTACT US</button>
-        
-        </div>
+</div>
     
     <div className="col-6 bg-body-tertiary" style={{width:'50%', backgroundColor: 'rgb(243, 233, 233)', paddingLeft:'20px'}}>
     <img src={slideimage} alt='SlideImage' className="img-fluid rounded float-end mt-5" style={{width:'80%', height:'70%'}}/>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-<h1 style={{fontFamily:'Arial', fontWeight:'bold', fontSize:'30px', textAlign:'center', paddingTop:'350px', marginBottom:'-10px'}}>Our Services</h1>
-<p style ={{textAlign:'center', fontFamily:'Arial'}}>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
 
 </Fragment>
 )}

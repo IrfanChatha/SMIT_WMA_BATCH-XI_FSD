@@ -34,8 +34,8 @@ const Footer = () => {
     
        
     
-    <br /><div style={{ backgroundColor: 'rgb(243, 233, 233)', padding: '5px 0px 10px 0px' }}>
-          <p style={{ fontFamily: 'Arial', textAlign: 'center' }}>Copyright @ 2022 All Rights Reserved By Dev Umair</p>
+    <br /><div className="bg-body-tertiary" style={{padding: '5px 0px 10px 0px'}}>
+          <p style={{ fontFamily: 'Arial', textAlign: 'center' }}>Copyright @ 2022 All Rights Reserved By Dev Umair // Irfan</p>
       </div>
       
       
