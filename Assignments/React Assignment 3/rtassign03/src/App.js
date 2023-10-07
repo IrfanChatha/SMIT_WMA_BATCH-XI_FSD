@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import Footer from './components/Footer'
 import LandingPage from './components/pages/LandingPage.jsx'
 import ServicesPage from './components/pages/ServicesPage.jsx'
+import FruitsPage from './components/pages/FruitsPage'
 
 function App() {
 return (
@@ -13,6 +14,7 @@ return (
     <Header />
    <LandingPage />
    <ServicesPage />
+   <FruitsPage />
     <Footer />
   
     </div>

@@ -41,6 +41,15 @@ const ServicesPage = () => {
   </div>
 </div>
 </div>
+<div ClassName="row">
+<button style={{fontSize:'18px',
+      fontWeight:'bold',
+      color:'white',
+      backgroundColor:'black',
+      border:'0px',
+      padding:'9px 14px',
+      margin:'30px'}}>Read More</button>
+</div>
 
     </div>
   )
