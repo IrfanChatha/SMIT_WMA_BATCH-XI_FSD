@@ -26,7 +26,7 @@ const LandingPage = () => {
 </div>
     
     <div className="col-6 bg-body-tertiary" style={{width:'50%', backgroundColor: 'rgb(243, 233, 233)', paddingLeft:'20px'}}>
-    <img src={slideimage} alt='SlideImage' className="img-fluid rounded float-end mt-5" style={{width:'80%', height:'70%'}}/>
+    <img src={slideimage} alt='SlideImage' className="img-fluid float-end mt-5" style={{width:'70vh', height:'40vh'}}/>
     </div>
   </div>
 </div>
