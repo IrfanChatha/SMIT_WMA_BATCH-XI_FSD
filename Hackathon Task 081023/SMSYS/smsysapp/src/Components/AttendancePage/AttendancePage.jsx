@@ -1,6 +1,6 @@
 import React from 'react'
-import SideNavBar
- from '../Navbar/SideNavBar'
+import SideNavBar from '../Navbar/SideNavBar'
+
 const AttendancePage = () => {
   return (
     <div>

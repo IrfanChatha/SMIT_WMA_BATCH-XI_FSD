@@ -4,10 +4,9 @@ import Dashboard from './Dashboard/Dashboard'
 import StudentPage from './StudentPage/StudentPage'
 import CoursesPage from './CoursesPage/CoursesPage'
 import AttendancePage from './AttendancePage/AttendancePage'
-
 export default function Index () {
   return (
-    
+
 <BrowserRouter>
 <Routes>
           <Route path="/" element={<Dashboard />}/>
