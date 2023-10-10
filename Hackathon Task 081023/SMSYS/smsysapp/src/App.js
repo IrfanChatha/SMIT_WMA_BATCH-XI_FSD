@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Sidebar from "./Components/Navbar/Sidebar";
+import SideNavbar from "./Components/SideNavbar/SideNavbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CoursesPage from "./Components/CoursesPage/CoursesPage";
 import AttendancePage from "./Components/AttendancePage/AttendancePage";
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <div className="d-flex">
         <div className="col-auto">
-          <Sidebar />
+          <SideNavbar />
         </div>
 
         <div>
