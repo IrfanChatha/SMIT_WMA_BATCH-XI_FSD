@@ -1,13 +1,19 @@
-import React from 'react'
-import SideNavBar from '../Navbar/SideNavBar'
+import React from "react";
+import { Nav } from "react-bootstrap";
 
 const Dashboard = () => {
   return (
     <div>
-     <div className="row text-bg-primary p-3"> <h2 style={{color:'white'}}>Dashboard</h2></div>
-      <SideNavBar />
-   </div>
-  )
-}
+      <Nav
+        className="navbar navbar-expand-lg bg-primary text-white"
+        style={{ width: "82vw" }}
+      >
+        <div className="mx-auto">
+          <h2>Dashboard</h2>
+        </div>
+      </Nav>
+    </div>
+  );
+};
 
-export default Dashboard
+export default Dashboard;

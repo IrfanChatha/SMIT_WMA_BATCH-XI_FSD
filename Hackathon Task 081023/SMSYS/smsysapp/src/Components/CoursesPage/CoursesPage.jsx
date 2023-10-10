@@ -1,13 +1,18 @@
-import React from 'react'
-import SideNavBar from '../Navbar/SideNavBar'
+import React from "react"
+import { Nav } from 'react-bootstrap'
 
 const CoursesPage = () => {
-  return (
-    <div>
-    <div className="row text-bg-primary p-3"> <h2 style={{color:'white'}}>Courses Page</h2></div>
-     <SideNavBar />
+  return <div>
+<Nav className="navbar navbar-expand-lg bg-primary text-white" style={{ width: "82vw" }}>
+  <div className="mx-auto">
+    <h2>Courses Page</h2>
   </div>
-  )
-}
+</Nav>
 
-export default CoursesPage
+
+
+
+  </div>;
+};
+
+export default CoursesPage;

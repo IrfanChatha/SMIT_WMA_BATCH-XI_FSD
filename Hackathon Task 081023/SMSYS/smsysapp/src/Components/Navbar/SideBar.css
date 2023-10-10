@@ -1,32 +1,22 @@
-body{
-    background: white;
+.side_bar .nav {
+    padding: 0px !important
 }
 
-.side_nav{
-    background: darkblue;
-    min-width: 250px;
-    max-width: 250px;
-    height: 600px;
+.side_bar ul li a:hover {
+    background-color: darkblue;
 }
 
-.content{
-    min-height: 100vh;
-    width: 100%;
-}
-
-.textWhite{
+.textWhite {
     color: white;
+    font-weight: bold;
 }
 
-.textGreen{
+.textGreen {
     color: lightgreen;
+    font-weight: bold;
+    background-color: darkblue;
 }
 
-.custom-shadow {
+.custom_shadow {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  }
-
- .h-color{
-    border-color: white;
-    border-width: 3px;
-  }
+}
