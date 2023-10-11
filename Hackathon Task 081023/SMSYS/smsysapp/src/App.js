@@ -7,6 +7,7 @@ import CoursesPage from "./Components/CoursesPage/CoursesPage";
 import AttendancePage from "./Components/AttendancePage/AttendancePage";
 import StudentPage from "./Components/StudentPage/StudentPage";
 import Dashboard from "./Components/Dashboard/Dashboard";
+
 function App() {
   return (
     <BrowserRouter>

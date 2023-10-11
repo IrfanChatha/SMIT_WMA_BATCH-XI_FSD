@@ -4,8 +4,6 @@ import { collection, getDocs } from "firebase/firestore";
 import { Nav } from "react-bootstrap";
 
 const StudentPage = () => {
- 
-    
   const [todos, setTodos] = useState([]);
 
   const getTodos = useCallback(async () => {
@@ -24,14 +22,14 @@ const StudentPage = () => {
 
   return (
     <div>
-
-<Nav className="navbar navbar-expand-lg bg-primary text-white"
-      style={{ width: "82vw" }}>
-      <div className="mx-auto">
-        <h2>Student Page</h2>
-      </div>
-    </Nav>
-
+      <Nav
+        className="navbar navbar-expand-lg bg-primary text-white"
+        style={{ width: "82vw" }}
+      >
+        <div className="mx-auto">
+          <h2>Students Page</h2>
+        </div>
+      </Nav>
 
       <div
         style={{
@@ -42,17 +40,10 @@ const StudentPage = () => {
         }}
       >
         <div>
-          <table
-            style={{
-              alignItems: "center",
-              borderStyle: "solid",
-              borderWidth: "3px",
-              borderColor: "blue",
-            }}
-          >
+          <table className="table tableStriped table-hover text-center fw-semibold me-5 align-middle">
             <thead>
-              <tr>
-                <th>Studdent ID</th>
+              <tr className="bg-primary">
+                <th>Student ID</th>
                 <th>Student Name</th>
                 <th>Contact Info</th>
                 <th>Action</th>
@@ -60,23 +51,15 @@ const StudentPage = () => {
             </thead>
             <tbody>
               {todos.map((todo, i) => (
-                <tr
-                  key={i}
-                  style={{
-                    alignItems: "center",
-                    borderStyle: "solid",
-                    borderWidth: "3px",
-                    borderColor: "blue",
-                  }}
-                >
-                  <td style={{ alignItems: "center" }}>{todo.studentId}</td>
+                <tr key={i}>
+                  <td>{todo.studentId}</td>
                   <td>{todo.studentName}</td>
                   <td>{todo.contactInfo}</td>
                   <td>
-                    <button className="btn btn-dark">Delete</button>
-                    <button type="button" className="btn btn-primary">
+                    <button type="button" className="btn btn-primary me-3">
                       Edit
                     </button>
+                    <button className="btn btn-danger me-2">Delete</button>
                   </td>
                 </tr>
               ))}
