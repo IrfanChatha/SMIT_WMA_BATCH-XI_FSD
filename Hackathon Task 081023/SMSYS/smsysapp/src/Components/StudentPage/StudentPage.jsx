@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { firestore } from "../../../src/Config/firestore";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, doc, getDocs } from "firebase/firestore";
 import { Nav } from "react-bootstrap";
+import { SPage } from "./ModelBox";
+
 
 const StudentPage = () => {
   const [todos, setTodos] = useState([]);
@@ -19,6 +21,19 @@ const StudentPage = () => {
   useEffect(() => {
     getTodos();
   });
+
+  const handleDelete = async (todo) => {
+    try {
+      await getDocs(collection(firestore, "studentsystem", todo.id));
+      const todosAfterDelete = todos.filter((t) => t.id !== todo.id);
+
+      setTodos(todosAfterDelete);
+      console.log("Document has been deleted");
+    } catch (err) {
+      console.error("Error: ", err);
+    }
+  };
+
 
   return (
     <div>
@@ -40,6 +55,14 @@ const StudentPage = () => {
         }}
       >
         <div>
+          
+          <div className="col-12 aligncenter">
+            <div className="row">
+              <button className="btn btn-primary mt-5 mb-3" onClick={SPage}>Add New Student</button>
+            </div>
+          </div>
+
+
           <table className="table tableStriped table-hover text-center fw-semibold me-5 align-middle">
             <thead>
               <tr className="bg-primary">
@@ -59,7 +82,12 @@ const StudentPage = () => {
                     <button type="button" className="btn btn-primary me-3">
                       Edit
                     </button>
-                    <button className="btn btn-danger me-2">Delete</button>
+                    <button
+                      className="btn btn-danger me-2"
+                      onClick={handleDelete}
+                    >
+                      Delete
+                    </button>
                   </td>
                 </tr>
               ))}
