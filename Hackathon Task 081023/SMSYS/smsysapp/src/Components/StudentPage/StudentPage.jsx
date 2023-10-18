@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { firestore } from "../../../src/Config/firestore";
-import { collection, doc, getDocs } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 import { Nav } from "react-bootstrap";
-import { SPage } from "./ModelBox";
-
 
 const StudentPage = () => {
   const [todos, setTodos] = useState([]);
@@ -34,7 +32,6 @@ const StudentPage = () => {
     }
   };
 
-
   return (
     <div>
       <Nav
@@ -55,13 +52,13 @@ const StudentPage = () => {
         }}
       >
         <div>
-          
           <div className="col-12 aligncenter">
             <div className="row">
-              <button className="btn btn-primary mt-5 mb-3" onClick={SPage}>Add New Student</button>
+              <button className="btn btn-primary mt-5 mb-3">
+                Add New Student
+              </button>
             </div>
           </div>
-
 
           <table className="table tableStriped table-hover text-center fw-semibold me-5 align-middle">
             <thead>
