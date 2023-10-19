@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import UseState from "../UseState/UseState";
 
 const Dashboard = () => {
   return (
@@ -12,6 +13,7 @@ const Dashboard = () => {
           <h2>Dashboard</h2>
         </div>
       </Nav>
+      <UseState />
     </div>
   );
 };
