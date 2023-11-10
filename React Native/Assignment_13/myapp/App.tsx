@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Startscreen1 from './src/components/screens/startscreen1/Startscreen1';
 import Startscreen2 from './src/components/screens/startscreen2/Startscreen2';
 import Startscreen3 from './src/components/screens/startscreen3/Startscreen3';
-// import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from 'react-native-splash-screen';
 import Splashscreen from './src/components/screens/splashscreen/Splashscreen';
 
 
