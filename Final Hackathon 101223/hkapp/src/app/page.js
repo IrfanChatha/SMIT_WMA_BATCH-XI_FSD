@@ -1,11 +1,9 @@
-import { useClient } from 'next/client';
-import Login from '@/pages/loginPage/loginPage'
-
+import SigninPage from "../app/signinPage/siginPage"
 export default function Home() {
+
   return (
     <>
-   
-    <Login />
+      <SigninPage />
     </>
   )
 }
