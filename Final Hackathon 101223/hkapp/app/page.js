@@ -1,6 +1,6 @@
 import DoctorMain from "../assets/img/doctor_main.jpg"
 import Image from 'next/image'
-
+import Link from "next/link"
 function HomePage() {
 
   return (
@@ -12,9 +12,11 @@ function HomePage() {
           <h1 className="font-extrabold text-green-400 sm:text-4xl md:text-5xl md:leading-tight">Doctors Appointment System</h1>
           <h2 className="font-primary text-palette-light text-base md:text-lg lg:text-xl">Effortless Scheduling: Book Your Doctor Appointments with Our User-Friendly Patient Appointment System - Quick, Simple, and Convenient!</h2>
       <div className="flex justify-center space-x-4">
-      <button className="rounded-full bg-blue-800 text-white py-2 px-6 hover:bg-gray-900 hover:border-red-500 hover:text-green-500 border-2 border-red-500 transition duration-300 font-bold">
-        Doctor Login
-      </button>
+      <Link href="/signinPage">
+        <button className="rounded-full bg-blue-800 text-white py-2 px-6 hover:bg-gray-900 hover:border-red-500 hover:text-green-500 border-2 border-red-500 transition duration-300 font-bold">
+          Doctor Login
+        </button>
+      </Link>
       <button className="rounded-full bg-blue-800 text-white py-2 px-6 hover:bg-gray-900 hover:border-red-500 hover:text-green-500 border-2 border-red-500 transition duration-300 font-bold">
         Book Appointment
       </button>
