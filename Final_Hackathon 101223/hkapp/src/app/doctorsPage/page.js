@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const AppointmentsPage = dynamic(() => import('../doctorsPage/appointmentsPage/appointmentsPage'));
-const PatientsPage = dynamic(() => import('../doctorsPage/patientsPage/patientsPage'));
+const AppointmentsPage = dynamic(() => import('./appointmentsPage/page'));
+const PatientsPage = dynamic(() => import('./patientsPage/page'));
 
 function DoctorsPage() {
   const [currentPage, setCurrentPage] = useState(null);
