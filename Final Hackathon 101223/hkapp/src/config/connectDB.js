@@ -1,5 +1,3 @@
-import mongoose from "mongoose";
-
 const connectDB = async () => {
     const connectionUrl = process.env.DB_URI;
     mongoose.connect('mongodb+srv://irfanchatha:imchatha@cluster0.iybuyko.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
@@ -9,4 +7,4 @@ const connectDB = async () => {
 }
 
 
-export default connectDB;
+export default connectDB(connectionUrl);
